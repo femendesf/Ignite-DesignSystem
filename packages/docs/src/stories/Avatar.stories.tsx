@@ -8,6 +8,13 @@ export default {
   args: {
     src: 'https://github.com/femendesf.png',
     alt: 'Felipe Mendes Fonseca'
+  },
+  argTypes:{
+    src:{
+      control:{
+        type:'text'
+      }
+    }
   }
   
 } as Meta<AvatarProps>
